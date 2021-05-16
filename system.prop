@@ -1,3 +1,10 @@
+# PPUI
+ro.ppui.device_name=Xiaomi POCO F1
+ro.ppui.version=3.5
+ro.ppui.version_code=Jasper
+ro.ppui.is_official=true
+ro.ppui.maintainer_name=DavidBilla
+
 # Camera
 persist.vendor.camera.perfcapture=1
 

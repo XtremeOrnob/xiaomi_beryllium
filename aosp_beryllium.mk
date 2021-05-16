@@ -6,13 +6,15 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Havoc stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
-HAVOC_MAINTAINER := Ninad Patil (REIGNZ3)
-HAVOC_GROUP_URL := https://t.me/havoc_beryllium
+# Inherit some common Fluid stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# GApps
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_beryllium
+PRODUCT_NAME := aosp_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
