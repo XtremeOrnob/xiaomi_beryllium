@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_beryllium.mk
+    $(LOCAL_DIR)/conquer_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_beryllium-user \
-    aosp_beryllium-userdebug \
-    aosp_beryllium-eng
+    conquer_beryllium-user \
+    conquer_beryllium-userdebug \
+    conquer_beryllium-eng
