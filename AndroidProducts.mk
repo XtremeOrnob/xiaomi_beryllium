@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2021 xdroid-CAF
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_beryllium.mk
+    $(LOCAL_DIR)/xdroid_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_beryllium-user \
-    conquer_beryllium-userdebug \
-    conquer_beryllium-eng
+    xdroid_beryllium-user \
+    xdroid_beryllium-userdebug \
+    xdroid_beryllium-eng

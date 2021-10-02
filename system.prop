@@ -18,3 +18,6 @@ ro.surface_flinger.has_HDR_display=true
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
+
+# Face Unlock
+ro.face.moto_unlock_service.cam_id=5
