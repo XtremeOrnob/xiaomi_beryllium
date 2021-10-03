@@ -7,6 +7,8 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
+SELINUX_IGNORE_NEVERALLOWS := true
+
 DEVICE_PATH := device/xiaomi/beryllium
 
 # Assert
