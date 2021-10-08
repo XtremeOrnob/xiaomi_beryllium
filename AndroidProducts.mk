@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kangos_beryllium.mk
+    $(LOCAL_DIR)/aosp_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    kangos_beryllium-user \
-    kangos_beryllium-userdebug \
-    kangos_beryllium-eng
+    aosp_beryllium-user \
+    aosp_beryllium-userdebug \
+    aosp_beryllium-eng

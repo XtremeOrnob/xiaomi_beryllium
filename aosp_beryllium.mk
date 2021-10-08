@@ -15,7 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_product.mk)
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common ConquerOS stuff.
-$(call inherit-product, vendor/kangos/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -24,7 +24,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := kangos_beryllium
+PRODUCT_NAME := aosp_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
