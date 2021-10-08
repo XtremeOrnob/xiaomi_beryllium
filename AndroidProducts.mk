@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_beryllium.mk
+    $(LOCAL_DIR)/kangos_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_beryllium-user \
-    potato_beryllium-userdebug \
-    potato_beryllium-eng
+    kangos_beryllium-user \
+    kangos_beryllium-userdebug \
+    kangos_beryllium-eng
