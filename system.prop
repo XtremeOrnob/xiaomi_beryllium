@@ -11,3 +11,7 @@ ro.surface_flinger.has_HDR_display=true
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
+
+# Display
+debug.disable_screen_decorations=true
+ro.surface_flinger.has_wide_color_display=true
