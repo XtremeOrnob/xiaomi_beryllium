@@ -7,10 +7,15 @@
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+
 # ArrowOS Stuff
-ARROW_GAPPS := true
-ARROW_COMMUNITY := true
+ANCIENT_OFFICIAL := true
+FORCE_OTA := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
+ANCIENT_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -22,8 +27,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Device identifier. This must come after all inclusions.
-DEVICE_MAINTAINER := XtremeOrnob
-PRODUCT_NAME := arrow_beryllium
+PRODUCT_NAME := ancient_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
