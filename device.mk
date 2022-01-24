@@ -12,6 +12,12 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/beryllium/beryllium-vendor.mk)
 
+TARGET_COMMON_QTI_COMPONENTS := perf
+QCOM_COMMON_PATH := device/qcom/common
+TARGET_KERNEL_VERSION ?= 4.9
+include $(QCOM_COMMON_PATH)/system/perf/qti-perf.mk
+include $(QCOM_COMMON_PATH)/vendor/perf/qti-perf.mk
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2246
 TARGET_SCREEN_WIDTH := 1080
