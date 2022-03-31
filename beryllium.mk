@@ -6,16 +6,12 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common AncientOS stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-ANCIENT_OFFICIAL := true
-FORCE_OTA := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
-ANCIENT_GAPPS := true
+WITH_GMS := true
 TARGET_GAPPS_ARCH := arm64
 
 # GApps
@@ -26,7 +22,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := ancient_beryllium
+PRODUCT_NAME := beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
