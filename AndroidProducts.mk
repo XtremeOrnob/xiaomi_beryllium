@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_beryllium.mk
+    $(LOCAL_DIR)/arrow_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_beryllium-user \
-    xdroid_beryllium-userdebug \
-    xdroid_beryllium-eng
+    arrow_beryllium-user \
+    arrow_beryllium-userdebug \
+    arrow_beryllium-eng
